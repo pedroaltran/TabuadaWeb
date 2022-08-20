@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(224, 224, 224);
+    background-image: url(photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+footer{
+    width: 100;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    padding: 20px;
+}
+
+div.container{
+    width: 100%;
+    max-width: 450px;
+    background-color: rgb(248, 231, 210);
+    padding: 15px 2%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.container h1{
+    font-size: 25px;
+    color: rgb(30, 30, 30);
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+}
+
+div.container input{
+    width: 100%;
+    max-width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid rgb(100,100,100);
+    border-radius: 5px;
+    color: rgb(70,70,70)
+}
+
+div.container input:focus{
+    border: 1px solid rgb(1, 133, 78);
+}
+
+div.container input::-webkit-inner-spin-button{
+    display: none;
+}
+
+div.tabuada{
+    width: 100%;
+    text-align: center;
+    color: rgb(80,80,80);
+    font-size: 16px;
+    line-height: 32px;
+    margin: 15px 0px;
+}
+div.container button{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px;
+    background-color:  rgb(212, 182, 145);
+    color: white;
+    cursor: pointer;
+}
